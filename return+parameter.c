@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int sum(int num1, int num2)
 {
     int ans = num1 + num2;
@@ -5,9 +7,11 @@ int sum(int num1, int num2)
     return ans;
 }
 
-#include <stdio.h>
 int main()
 {
-
+    int a, b;
+    scanf("%d %d", &a, &b);
+    int ans = sum(a, b);
+    printf("%d", ans);
     return 0;
 }
