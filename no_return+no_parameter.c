@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// no return no parametar
+
 void sum()
 {
     int a, b;
