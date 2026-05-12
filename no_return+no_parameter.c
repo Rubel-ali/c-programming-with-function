@@ -10,7 +10,7 @@ void sum()
 
 int main()
 {
-
     sum();
     return 0;
+    
 }
